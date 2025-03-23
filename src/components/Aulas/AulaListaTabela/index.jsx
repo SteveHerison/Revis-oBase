@@ -7,8 +7,8 @@ const Lista = () => {
     <div className="container w-full h-full mx-auto text-black bg-zinc-50 ">
       <table className="w-full h-full">
         <thead>
-          <tr className="h-10 text-white bg-blue-950 ">
-            <th className="text-start">Name</th>
+          <tr className="h-10 text-white bg-blue-950">
+            <th className="px-2 text-start">Name</th>
             <th>Status</th>
             <th>Grade 1</th>
             <th>Grade 2</th>
@@ -59,7 +59,7 @@ const Lista = () => {
                     <p className="text-center">{grade2}</p>
                   </td>
                   <td>
-                    <p className="text-center">
+                    <p className="font-bold text-center">
                       {status === "inativo" ? "--" : finalGrade}
                     </p>
                   </td>
